@@ -1,0 +1,13 @@
+#include<stdlib.h>//二维数组
+int m,n;
+cin>>m>>n;
+int **arr=(int **)calloc(m,sizeof(int));
+for(int i=0;i<m;i++)
+  arr[i]=(int *)calloc(n,sizeof(int));//此段代码相当于设置出一个二维数组a[m][n]
+
+
+#include<stdlib.h>//一维数组
+int m,n;
+cin>>m;
+int *arr=(int *)calloc(m,sizeof(int));//此段代码相当于设置出一个一维数组a[m]
+
